@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="30" height="21" viewBox="0 0 128 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="color-1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 1.683008, 19.923387)">
+      <stop style="stop-color: rgb(254, 245, 228)"/>
+    </linearGradient>
+    <style bx:fonts="DM Serif Display">@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display%3Aital%2Cwght%400%2C400%3B1%2C400&amp;display=swap);</style>
+  </defs>
+  <text style="fill: url('#color-1'); font-family: 'DM Serif Display'; font-size: 26.5px; font-weight: 700; white-space: pre; opacity: 0.9;" x="2.539" y="19.513">Ella Grady.</text>
+</svg>

@@ -1990,7 +1990,7 @@ img,
  * # FORM 
  *
  *
- * ------------------------------------------------------------------- */
+ * ------------------------------------------------------------------- 
 fieldset {
 	border : none;
 	padding: 0;
@@ -2113,7 +2113,7 @@ label>input[type=radio] {
 	margin  : 0;
 	position: relative;
 	top     : 2px;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## style placeholder text
@@ -2853,7 +2853,7 @@ td:last-child {
 
 .social-list li {
 	padding-left: 0;
-	margin-right: 1.2rem;
+	margin-right: 30px;
 }
 
 .social-list li:last-child {
@@ -2912,6 +2912,7 @@ td:last-child {
 	padding-top     : var(--vspace-4);
 	padding-bottom  : var(--vspace-3);
 	background-color: var(--color-3);
+	align-items: center;
 }
 
 .s-testimonials__header {
@@ -3102,7 +3103,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .grid-list-items {
 	--gap                : calc(var(--gutter) * 2);
-	--min-width          : 360px;
+	--min-width          : 460px;
 	display              : grid;
 	grid-template-columns: repeat(auto-fit, minmax(min(var(--min-width), 100%), 1fr));
 	-moz-column-gap      : var(--gap);
@@ -3187,7 +3188,7 @@ td:last-child {
  * ------------------------------------------------------------------- */
 .s-header {
 	--header-height: 80px;
-	--logo-width   : 9.6rem;
+	--logo-width   : 10.6rem;
 	--box-shadow   : 0 1px 1px rgba(0, 0, 0, 0.02),
 		             0 2px 2px rgba(0, 0, 0, 0.02),
 		             0 4px 4px rgba(0, 0, 0, 0.02),
@@ -3236,7 +3237,7 @@ td:last-child {
 .s-header__logo img {
 	width         : var(--logo-width);
 	margin        : 0;
-	vertical-align: bottom;
+	vertical-align: center;
 }
 
 /* --------------------------------------------------------------------
@@ -3248,6 +3249,8 @@ td:last-child {
 	flex           : 1 1 0%;
 	align-items    : center;
 	justify-content: space-between;
+	margin-bottom: 0;
+	padding-bottom: 6px;
 }
 
 .s-header__menu-links {
@@ -3256,10 +3259,14 @@ td:last-child {
 	flex-flow : row nowrap;
 	margin    : 0 4rem 0 0;
 	padding   : 0;
+	margin-bottom: 0;
+	padding-bottom: 6px;
 }
 
 .s-header__menu-links li {
 	padding-left: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .s-header__menu-links a {
@@ -3271,23 +3278,79 @@ td:last-child {
 	color              : var(--color-2-lightest);
 	padding            : 0 1.2rem;
 	transition-property: color, background-color;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .s-header__menu-links a:focus,
 .s-header__menu-links a:hover {
 	color: var(--color-3);
+	margin-bottom: 0;
+	padding-bottom: 0;
+	cursor: pointer;
 }
 
 .s-header__menu-links .current a {
 	color: var(--color-3);
+	
 }
 
 /* header contact button
  */
 .s-header__contact-btn {
 	margin: 0;
-}
 
+}
+/* --------------------------------------------------------------------
+ * dropdown navigation
+ * -------------------------------------------------------------------- */
+
+  
+  li.dropdown {
+	display: inline-block;
+	top:50%;
+	align-content: left;
+
+	border-radius: 50%;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	top: 40%;
+	left: 23.5%;
+	align-content: left;
+	border-radius:4px;
+	opacity: 100%;
+	padding: 7px 4px; 
+  }
+  
+  .dropdown-content a {
+	color: var(--color-2);
+	
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	border-radius:4px;
+	opacity: 100%;
+  }
+  
+  .dropdown-content a:hover {
+	color: var(--color-1); 
+}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+	float:none;
+	background-color: var(--color-3);
+  }
+  .dropdown .dropdowncurrent {
+	color: var(--color-3);
+  }
 /* --------------------------------------------------------------------
  * ## mobile menu toggle
  * -------------------------------------------------------------------- */
@@ -4273,7 +4336,7 @@ td:last-child {
 }
 
 .s-footer__about>* {
-	width: min(100%, 560px);
+	width: min(100%, 800px);
 }
 
 .s-footer__bottom {
@@ -4634,12 +4697,16 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .pagemedia {
+	width: 60%;
 	margin-bottom: var(--vspace-2_5);
+	margin: auto;
+	display: block;
 }
 
 .pagemedia figure,
 .pagemedia img {
 	margin-bottom: 0;
+	
 }
 
 .pagemedia img {
@@ -4649,7 +4716,20 @@ td:last-child {
 .pagemain .column:first-child>*:first-child {
 	margin-top: 0;
 }
-
+/* --------------------------------------------------------------------
+ * ## pdf
+ * -------------------------------------------------------------------- */
+ .pdf {
+	width: 100%;
+	aspect-ratio: 0.77 / 1.004;
+	}
+.pdf,
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
 /* --------------------------------------------------------------------
  * ## services page
  * -------------------------------------------------------------------- */
@@ -4740,3 +4820,52 @@ td:last-child {
 .contact-list li {
 	padding-left: 0;
 }
+/* --------------------------------------------------------------
+* contact form
+*  -------------------------------------------------------------- */
+.container label {
+	color: var(--color-3-light);
+	font-family: var(--font-1);
+	
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid var(--color-2-dark); /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	background-color: var(--color-3-light);
+	margin-top: 1px; /* Add a top margin */
+	margin-bottom: 1px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: var(--color-2-dark);
+	color:var(--color-3);
+
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: var(--color-1);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 5px;
+	background-color: var(--color-2-light);
+	padding-top: 10px;
+	padding-left:10px;
+	padding-right: 10px;
+
+  }
