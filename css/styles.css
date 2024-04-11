@@ -1405,8 +1405,8 @@ blockquote cite a:visited {
  */
 figure img,
 p img {
-	margin        : 0;
-	vertical-align: bottom;
+	display: block;
+	margin        : auto;
 }
 
 figure {
@@ -3583,18 +3583,18 @@ td:last-child {
 }
 
 .s-pagecontent {
-	padding-top   : var(--vspace-4);
+	padding-top   : 30px;
 	padding-bottom: var(--vspace-3);
 }
 
 .s-pagecontent .pageintro {
-	margin-bottom: var(--vspace-2_5);
+	margin-bottom: 0;
 }
 
 .s-pagecontent .pageintro h1,
 .s-pagecontent .pageintro h2 {
 	margin-top   : 0;
-	margin-bottom: var(--vspace-1_5);
+	margin-bottom: 0;
 }
 
 .s-pagecontent .pagination {
@@ -3694,7 +3694,7 @@ td:last-child {
 }
 
 .s-intro__content-title {
-	font-size    : clamp(5rem, 7vw, 11.6rem);
+	font-size    : clamp(4rem, 6vw, 10.6rem);
 	line-height  : 1;
 	margin-top   : 0;
 	margin-bottom: var(--vspace-1_25);
@@ -4710,7 +4710,7 @@ td:last-child {
 }
 
 .pagemedia img {
-	vertical-align: bottom;
+	vertical-align: center;
 }
 
 .pagemain .column:first-child>*:first-child {
