@@ -1217,6 +1217,7 @@ a {
 	transition: all 0.3s ease-in-out;
 }
 
+
 a:focus,
 a:hover,
 a:active {
@@ -2909,7 +2910,7 @@ td:last-child {
 }
 
 .blog-card__cat-links a {
-	color: var(--color-1);
+	color: var(--color-link);
 }
 
 .blog-card__title {
