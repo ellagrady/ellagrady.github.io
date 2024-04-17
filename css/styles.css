@@ -1754,6 +1754,17 @@ img.u-pull-left {
 	height  : 100%;
 }
 
+#huggingface-app {
+
+    border-radius: 15px; /* Adjust the px value to increase or decrease the roundness */
+    width: 1000px;  /* Adjust the width as needed */
+    height: 800px; /* Adjust the height as needed */
+    border: none;  /* Removes the default border */
+	align-items: center;
+	justify-content: center;
+	
+}
+
 /* --------------------------------------------------------------------
  * ## spacing
  * -------------------------------------------------------------------- */
