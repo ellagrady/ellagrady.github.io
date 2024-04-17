@@ -4297,7 +4297,7 @@ td:last-child {
 .s-journal {
 	padding-top     : var(--vspace-3);
 	padding-bottom  : var(--vspace-3);
-	background-color: var(--color-3-light);
+	background-color: var(--color-3);
 	color           : rgba(0, 0, 0, 1);
 	border-bottom   : 1px solid rgba(255, 255, 255, 0.05);
 }
