@@ -1,3 +1,123 @@
+Ella Grady
+
+Website, originally created for digital portfoilo assignment in CMLT 210: History & Politics of
+Modern Museums, Spring 2024 Clark University.
+
+Website hosted on GitHub Pages, at https://ellagrady.github.io
+Repo available at https://github.com/ellagrady/ellagrady.github.io/
+
+Started March 27, 2024
+Final submission for class due May 1, 2024
+
+Assignment required blog posts (5) on 2 museum visits, 1 reading assignment, 1 of proposal for final
+research project, and 1 on self reflection on the course. 
+
+Also required was a research section containing research/essays completed at least during the course,
+expanded to include most of research completed while studying at Clark University & University of Stirling,
+as well as a few projects completed in computer science classes. 
+
+Additional requirements included a section "about me", which was expanded to include a resume tab, 
+and contact page, as well.
+
+About page: about.html  
+Blog page: blog.html   
+    Blog posts found under blogposts folder
+        - bernhard.html
+        - duncanbennet.html
+        - finalproposal.html
+        - hammer.html
+        - labrea.html
+        - selfreflection (not added yet)
+Contact page: contact.html
+Home page: index.html
+Research main page: research.html 
+    Museum research: museum.html 
+        Research pages under cmltresearch folder    
+            - bernhardessay.html 
+            - debateessay.html
+    Tech research: techreserach.html 
+        Research pages under csresearch folder
+            - cpualgs
+            - datasecurity.html
+            - maskwearing.html
+            - memallocate.html
+        Crossover tech politics research under politicsresearch folder
+            - ainatsec (not added yet)
+            - cdpaper.html
+            - dataprivacy.html
+            - twitterbans.html
+    Political Science research: politicsresearch.html
+        Research pages under politicsresearch folder
+            - capstoneppt.html
+            - cdpaper.html
+            - contentanalysis.html
+            - dataprivacy.html
+            - foodcapstone.html
+            - methodsfinal.html
+            - nationalismessay.html
+            - nationalismgender.html
+            - reconstructionessay.html
+            - russiabrezhnev.html
+            - russiadictator.html
+            - russiafinal.html
+            - twitterbans.html
+Resume page: resume.html
+
+Backend/style guides:
+    CSS guides: under css folder 
+        - styles.css
+        - vendor.css
+
+    JavaScript files: under js folder
+        - main.js
+        - plugins.js
+
+    site.webmanifest 
+    styles.html
+
+Images: 
+    - Untitled.png (browser tab logo)
+
+    images folder:
+        - intro.png (photo for home page)
+        - Untitled.svg (name logo appearing on every page, will take back to homepage)
+        thumbs folder:
+            about folder: gradshot.jpg (photo for about page)
+            contact folder: contact.jpg (photo for contact page)
+        researchfiles folder: contains pdf files for research pages
+            - E Grady Bernhard Close Reading.pdf
+            - E Grady Brezhnev.pdf
+            - E Grady Capstone PPT.pdf
+            - E Grady CD Paper.pdf
+            - E Grady Content Analysis Paper.pdf
+            - E Grady Data Privacy Regulations.pdf
+            - E Grady Data Security.pdf
+            - E Grady Nationalism Essay.pdf
+            - E Grady Nationalsim Gender.pdf
+            - E Grady PS 107 Final.pdf
+            - E Grady Reconstruction Essay.pdf
+            - E Grady Russia Dictatorship.pdf
+            - E Grady Russia Final.pdf
+            - E Grady Twitter Bans.pdf
+            - Ella Grady Capstone.pdf
+            - Ella Grady Museum Debate.pdf
+        resume folder: (contains resume for resume page)
+            - E Grady Resume.pdf
+        single folder (contains photos for blog posts)
+            - bernhard.jpg
+            - filipino.jpg
+            - hammerproject.jpeg
+            - hammer.jpeg
+            - hrdlicka.jpeg
+            - mammoth.jpeg
+            - met.jpg
+            - museum.jpeg
+            - oty.jpeg
+            - tintoretto.jpg
+
+
+
+Open source code for design template:  https://styleshout.com/free-templates/monica/ 
 ==================================================================================================
 
 DESCRIPTION:
