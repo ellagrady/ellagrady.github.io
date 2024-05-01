@@ -35,6 +35,7 @@ Research main page: research.html
         Research pages under cmltresearch folder    
             - bernhardessay.html 
             - debateessay.html
+            - final.html
     Tech research: techreserach.html 
         Research pages under csresearch folder
             - cpualgs
@@ -92,6 +93,7 @@ Images:
             - E Grady Content Analysis Paper.pdf
             - E Grady Data Privacy Regulations.pdf
             - E Grady Data Security.pdf
+            - E Grady Museum Final.pdf
             - E Grady Nationalism Essay.pdf
             - E Grady Nationalsim Gender.pdf
             - E Grady PS 107 Final.pdf
@@ -109,8 +111,10 @@ Images:
             - hammerproject.jpeg
             - hammer.jpeg
             - hrdlicka.jpeg
+            - kunsthistorisches.jpeg
             - mammoth.jpeg
             - met.jpg
+            - moco.jpg
             - museum.jpeg
             - oty.jpeg
             - tintoretto.jpg
